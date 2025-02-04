@@ -1,0 +1,17 @@
+site_name: Unfreedom in America
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - 202501: 2025/202501.md
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: True
+
+repo_name: Github
+repo_url: https://github.com/eroicaleo/unfreedom-in-America/
+edit_uri: 'blob/main/docs/'
